@@ -25,7 +25,6 @@ Customer churn prediction using Logistic Regression with cross-validation, class
 
 ## 📊 Results
 * **Best Model:** Logistic Regression with balanced class weights
-* **Train Accuracy:** 83.89%
-* **Test Accuracy:** 84%
+* **Train/ Test Accuracy:** train and test accuracy nearly identical — no overfitting
 * **Churn Recall:** 81%
 * **Key Observation:** Raw accuracy is misleading on imbalanced datasets. With 83% of customers not churning, a naive model achieves 82% by predicting no churn for everyone. The balanced model correctly identifies 81% of actual churners — the metric that matters for the business.
